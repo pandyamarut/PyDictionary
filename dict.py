@@ -2,6 +2,7 @@ import json
 from difflib import get_close_matches
 
 data = json.load(open("data.json"))
+"""above line is used to load the json file which contains the data""".
 
 def translate(w):
     w = w.lower()
